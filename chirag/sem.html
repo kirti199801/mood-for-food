@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!-- Created By Chirag -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Semster Book</title>
+    <link rel="stylesheet" href="sem.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel ="stylesheet" href ="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous"></script>
+     
+  </head>
+  <body>
+
+    <!--logo-->
+    <div id= "topbar">
+        <img id="vitlogo" src= "logo.png"/>
+        <a href = "about.html"><img  id= "logouticon" src= "logout.png"/></a>
+        <span id= "logouttext"><a href="#"> LogOut</a></span>
+        <h1 id= "vittext">Welcome to Department of Information Technology</h1>
+    </div>
+
+    <!--menu bar-->
+    <header>
+      <div class = "logo1">
+        <h1 class="logo1-text">E-Library</h1>
+
+      </div>
+
+      <i class="fa fa-bars menu-toggle"></i>
+      <ul class="nav">
+          <li><a href="books.html">Book</a></li>
+          <li><a href="ieeep.html">IEEE Paper</a></li>
+          <li><a href="sem.html">Semester Book</a></li>
+          <li>
+            <a href="other.html">Other</a>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#" class="logout"></a></li>
+          </ul>
+          </li>
+    </ul>
+  </header>
+
+
+    <script>
+     $(document).ready(function(){
+       $('.menu-toggle').on('click', function(){
+         $('.nav').toggleClass('showing');
+         $('.nav ul').toggleClass('showing');
+       });
+     });
+    </script>
+
+
+<!--vertical menu-->
+
+            <input type="checkbox" id="check">
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar">
+              <h3>Dashboard</h3>
+              <a href="#" class="active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-podcast"></i>
+                <span>Profile</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-book"></i>
+                <span>AddBook</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-archive"></i>
+                <span>Wishlist</span>
+              </a>
+              <a href="#">
+                <i class="far fa-question-circle"></i>
+                <span>About </span>
+              </a>
+            
+              <a href="#">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>LogOut</span>
+              </a>
+            </div>
+              
+
+
+<!--sem book-->
+
+<div class="sem">
+    <button class="accordion">
+        Semester 3
+      </button>
+      <div class="panel">
+        
+         <a rel="nofollow" href="https://drive.google.com/open?id=1uAoE9jJ2iuGWwaLWWTP9PNPQnEzJelbi" ><i class="fas fa-book"></i> Logic Design </a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+     <br>
+        <a rel="nofollow" href="https://drive.google.com/open?id=18kmw71wEl79kkQh6RbCCZal9WOG7RI8r" ><i class="fas fa-book"></i>Data Structure and Analysis</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+
+        <br>
+         <a rel="nofollow" href="https://drive.google.com/open?id=12QEXVMCI4_uGvp813lDF2NzZONC731_P" ><i class="fas fa-book"></i> Database Management System</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+        <br>
+         <a rel="nofollow" href="https://drive.google.com/open?id=1UYpMqJUozvNszig_E16jfdsst1l5by9z" ><i class="fas fa-book"></i>Principle of Communication</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+      </div>
+
+      <button class="accordion">
+        Semester 4
+      </button>
+      <div class="panel">
+        
+         <a rel="nofollow" href="https://drive.google.com/open?id=1-LzJWezbKcJ8NAAQz00U4MSOs3k7V46a" ><i class="fas fa-book"></i> Computer Network</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+     <br>
+        <a rel="nofollow" href="https://drive.google.com/open?id=14w9Gw9Q1prp0UkuNnrYrhssJaqwAxZMi" ><i class="fas fa-book"></i>Computer Organization and Architecture</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+
+        <br>
+   
+          <a rel="nofollow" href="https://drive.google.com/open?id=1_eL5UYcBHZIZ5czqDASfq2BU6fj2vDni" ><i class="fas fa-book"></i>Operating System</a>
+          <div class="button" onclick="SaveToDisk("");">Download</div>
+          <br>
+        
+            <a rel="nofollow" href="https://drive.google.com/open?id=132U1Oz2URFJgzAUbVw88ELOl06k3SuTr" ><i class="fas fa-book"></i>Automata Theory</a>
+            <div class="button" onclick="SaveToDisk("");">Download</div>
+      
+      </div>
+
+      <button class="accordion">
+        Semester 5
+      </button>
+      <div class="panel">
+        <a rel="nofollow" href="https://drive.google.com/open?id=16kxdVAB27QrYxw29n3jGKD19NEMWZEvm" ><i class="fas fa-book"></i>Advance Database Management Technology </a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+    <br>
+         <a rel="nofollow" href="https://drive.google.com/open?id=1xAYLiSUxmVwbh9FqnXnKu6371RAo5o_B" ><i class="fas fa-book"></i>Cryptography and Network Security </a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+     <br>
+        <a rel="nofollow" href="https://drive.google.com/open?id=1zc3noA8vvmXvh080sE2mZWQnf43geU_Y" ><i class="fas fa-book"></i>Microprocessor and Embedded Programing</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+
+        <br>
+        
+          <a rel="nofollow" href="https://drive.google.com/open?id=1yjH0u8TSVEIhtx9QJcr5iwIW4jxg26oe" ><i class="fas fa-book"></i>Internet Programming</a>
+          <div class="button" onclick="SaveToDisk("");">Download</div>
+    
+      </div>
+
+      <button class="accordion">
+        Semester 6
+      </button>
+      <div class="panel">
+        <a rel="nofollow" href="https://drive.google.com/open?id=1qOOiK4IyWC1XjWZj2NW9v0zdNupfVyh1" ><i class="fas fa-book"></i>Data Mining and Business Inteligence</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+    <br>
+         <a rel="nofollow" href="https://drive.google.com/open?id=1vSPZUZAxvZMB6cdGTdKCduCYk2m0jBf1" ><i class="fas fa-book"></i>Software Engineering and Project Management</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+     <br>
+        <a rel="nofollow" href="https://drive.google.com/open?id=1gkMKRv3nIJXMGfg-7EJwzvmFQA4viZHN" ><i class="fas fa-book"></i>Wireless Network</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+
+        <br>
+        
+          <a rel="nofollow" href="https://drive.google.com/open?id=1ujEcmlrzD0PxFX8jqVo7U-wkAsGwLrAI" ><i class="fas fa-book"></i>Cloud Computing</a>
+          <div class="button" onclick="SaveToDisk("");">Download</div>
+    
+      </div>
+
+      <button class="accordion">
+        Semester 7
+      </button>
+      <div class="panel">
+        <a rel="nofollow" href="https://drive.google.com/open?id=1fahDMhaSRook15w_p3E3gEckQ2BdOX1O" ><i class="fas fa-book"></i>Artificial Inteligence</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+    <br>
+         <a rel="nofollow" href="https://drive.google.com/open?id=1VQTsuNPuVHFPSyDnDJDmqKvUERBL6gDT" ><i class="fas fa-book"></i>Enterprise Network Design</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+     <br>
+        <a rel="nofollow" href="https://drive.google.com/open?id=1o8X2hVuEuEZkxHBE2rlJvG3D51TW7rdR" ><i class="fas fa-book"></i>Infrastructure Security</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+
+      </div>
+
+      <button class="accordion">
+      Semester 8
+      </button>
+      <div class="panel">
+        <a rel="nofollow" href="https://drive.google.com/open?id=1lbTDn61hAtBLR6HytTFfkBmiNfy3S2wv" ><i class="fas fa-book"></i>Big Data Analysis</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+    <br>
+         <a rel="nofollow" href="https://drive.google.com/open?id=1bzZdXWYBtxRWkfg9JHc7lPaG_2T2ymS6" ><i class="fas fa-book"></i>Internet of Everything</a>
+        <div class="button" onclick="SaveToDisk("");">Download</div>
+  
+    
+      </div>
+
+      <script type="text/javascript">
+            var accordions = document.querySelectorAll("button.accordion");
+
+                for (var i = 0; i < accordions.length; i++) {
+                accordions[i].onclick = function() {
+                  this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+                 };
+            }
+    
+    </script>
+</div>
+<!-- footer-->
+  
+<footer>
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h1 class="logo-text">E-Library</h1>
+      <p>
+        Address: Vidyalankar Campus,<br>
+        Vidyalankar College Marg,<br>
+        Wadala(East),Mumbai-400 037,<br>
+        Maharastra,India.
+      </p>
+      
+      <div class="contact">
+        <span>
+          <i class="fas fa-phone"></i>&nbsp;022-2416-11-26
+        </span>
+        <span>
+          <i class="fas fa-envelope"></i>&nbsp;principal@vit.edu.in
+        </span>
+      
+      </div>
+
+      <div class="socials">
+        <a href="#">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-section links">
+      <h2>Quick Links</h2>
+      <br>
+      <ul>
+        <a href="books.html">
+          <li>Books</li>
+        </a>
+        <a href="ieeep.html">
+          <li>IEEE Paper</li>
+        </a>
+        <a href="sem.html">
+          <li>Semester Book</li>
+        </a>
+        <a href="#">
+          <li>Abous us</li>
+        </a>
+        <a href="#">
+          <li>Logout</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="footer-section contact-form">
+      <h2>Contact Us</h2>
+      <br>
+      
+      <form>
+        <input type="email" name="email" class="text-input contact-input" placeholder="Your E-mail Adreess...">
+
+        <textarea name="message" class="text-input contact-input" placeholder="Your Message ..."></textarea>
+
+        <button type="submit" class="btn btn-big">
+          <i class="fas fa-envelope"></i>Send
+          
+        </button>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      &copy;vitlibrary.com|Designed by CNK...
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
